@@ -1,0 +1,140 @@
+body {
+   background: linear-gradient(to bottom, #fdf1f1, #F4A6B9);
+    background-attachment: fixed;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 40px;
+    padding: 12px 22px;
+    background: #fbd5f8;
+    backdrop-filter: blur(10px);
+    border-radius: 999px;
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: #343434 2px 2px 2px;
+}
+
+.back-link:hover {
+    background-color: #F4A6B9;
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+}
+
+.h1 {
+    font-family: 'Pacifico', cursive;
+    color: #c94b6a;
+    font-size: 70px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.Harry img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: 300px;
+    border-radius: 20px;
+    box-shadow: #333333 2px 2px 8px;
+}
+
+p {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    margin-top: 730px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+}
+
+.Youtube img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1100px;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: 300px;
+    border-radius: 20px;
+    box-shadow: #333333 2px 2px 8px;
+}
+
+p2 {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    margin-top: 1650px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+}
+
+.Film img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2200px;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: 300px;
+    border-radius: 20px;
+    box-shadow: #333333 2px 2px 8px;
+}
+
+p3 {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2750px;
+    right: 100px;
+    left: 100px;
+    display: flex;
+}
+
+.Instagram img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3000px;
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    right: 300px;
+    border-radius: 20px;
+    box-shadow: #333333 2px 2px 8px;
+}
+
+p4 {
+    font-family: 'Pacifico', cursive;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 3500px;
+    right: 450px;
+    display: flex;
+}
