@@ -3,13 +3,33 @@ body {
     background-attachment: fixed;
 }
 
-.back-link {
+@keyframes back-link {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(255, 168, 203);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 10px rgba(52, 152, 219, 0);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+    }
+}
+
+.bouton-back-link {
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    animation: back-link 2s ease infinite;
     display: inline-flex;
     align-items: center;
     gap: 8px;
     margin: 40px;
     padding: 12px 22px;
-    background: #fbd5f8;
+    background: #F4A6B9;
     backdrop-filter: blur(10px);
     border-radius: 999px;
     font-family: 'Pacifico', cursive;
@@ -24,12 +44,6 @@ body {
     z-index: 9999;
 }
 
-.back-link:hover {
-    background-color: #F4A6B9;
-    transform: translateY(-3px);
-    transition: all 0.3s ease;
-}
-
 .h1 {
     font-family: 'Pacifico', cursive;
     color: #c94b6a;
@@ -39,7 +53,21 @@ body {
     margin-top: 50px;
 }
 
+@keyframes float-taxi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-taxi {
+    0%, 100% { box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+}
+
 .taxi img {
+    animation: 
+        float-taxi 3s ease-in-out infinite,
+        glow-taxi 2s ease-in-out infinite;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +92,21 @@ p {
     display: flex;
 }
 
+@keyframes float-taxi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-taxi {
+    0%, 100% { box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+}
+
 .acia img {
+    animation: 
+        float-taxi 3s ease-in-out infinite,
+        glow-taxi 2s ease-in-out infinite;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +131,21 @@ p2 {
     display: flex;
 }
 
+@keyframes float-taxi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-taxi {
+    0%, 100% { box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+}
+
 .océan img {
+    animation: 
+        float-taxi 3s ease-in-out infinite,
+        glow-taxi 2s ease-in-out infinite;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +170,21 @@ p3 {
     display: flex;
 }
 
+@keyframes float-taxi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-taxi {
+    0%, 100% { box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+}
+
 .concert img {
+    animation: 
+        float-taxi 3s ease-in-out infinite,
+        glow-taxi 2s ease-in-out infinite;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,7 +209,21 @@ p4 {
     display: flex;
 }
 
+@keyframes float-taxi {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-taxi {
+    0%, 100% { box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(0, 0, 0, 0.8); }
+}
+
 .parfum img {
+     animation: 
+        float-taxi 3s ease-in-out infinite,
+        glow-taxi 2s ease-in-out infinite;
+
     display: flex;
     justify-content: center;
     align-items: center;

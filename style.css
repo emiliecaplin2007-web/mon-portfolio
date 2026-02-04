@@ -88,10 +88,10 @@ h1 {
 }
 
 p {
-    font-family: 'poppins', sans-serif;
+    font-family: 'pacifico', cursive;
     font-size: 20px;
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 700px;
     color: #333;
 }
 
@@ -246,10 +246,10 @@ p {
     .project-name-ps {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    color: #fff;
+    color: #c94b6a;
     position: absolute;
     top: 2080px;
-    left: -194px;
+    left: -390px;
 }
 
     .ai {
@@ -267,10 +267,10 @@ p {
     .project-name-ai {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    color: #fff;
+    color: #c94b6a;
     position: absolute;
     top: 2080px;
-    left: 205px;
+    left: 5px;
 }
 
     .vs {
@@ -289,10 +289,10 @@ p {
     .project-name-vs {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    color: #fff;
+    color: #c94b6a;
     position: absolute;
     top: 2080px;
-    left: 565px;
+    left: 365px;
 }
 
     .perso {
@@ -311,10 +311,10 @@ p {
     .project-name-pp {
     font-family: 'Pacifico', cursive;
     font-size: 30px;
-    color: #fff;
+    color: #c94b6a;
     position: absolute;
     top: 2350px;
-    left: -240px;
+    left: -440px;
 }
 
 .project-name {
@@ -337,7 +337,7 @@ p {
     color: #c94b6a;
     margin-bottom: 30px;
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: -10px;
     margin-left: 60px;
 }
 
@@ -349,6 +349,26 @@ p {
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(52, 152, 219, 0.8); }
+}
+
+.skills-card {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    
+    animation: 
+        float 3s ease-in-out infinite,
+        glow 2s ease-in-out infinite;
 }
 
 .skills-card {
@@ -363,11 +383,6 @@ p {
     transition: transform 5s ease, box-shadow 25s ease;
 }
 
-.skills-card:hover {
-    transform: scale(1.05);
-    box-shadow: #424242 4px 4px 14px;
-}
-
 .skill-header {
     display: flex;
     justify-content: space-between;
@@ -375,17 +390,14 @@ p {
     margin-bottom: 8px;
 }
 
-
 .skill-name {
     font-size: 16px;
     margin-top: 10px;
 }
 
-
 .skill-percentage {
     font-size: 16px;
 }
-
 
 .skill-bar {
     width: 100%;
@@ -395,7 +407,6 @@ p {
     overflow: hidden;
 }
 
-
 .skill-fill {
     height: 100%;
     background: linear-gradient(to right, #F294C8, #BF455B);
@@ -403,12 +414,10 @@ p {
     transition: width 1s ease;
 }
 
-
 .contact {
   min-height: 80vh;
   padding: 80px 60px;
 }
-
 
 .contact h1 {
   font-family: 'Pacifico', cursive;
@@ -419,6 +428,25 @@ p {
   margin-top: 50px;
 }
 
+@keyframes float-box {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes glow-box {
+    0%, 100% { box-shadow: 0 0 5px rgb(219, 52, 127); }
+    50% { box-shadow: 0 0 20px rgb(248, 71, 168); }
+}
+
+.contact-box {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    
+    animation: 
+        float-box 3s ease-in-out infinite,
+        glow-box 2s ease-in-out infinite;
+}
 
 .contact-box {
   background-color: #b9475c;
@@ -438,7 +466,6 @@ p {
     box-shadow: #424242 4px 4px 14px;
 }
 
-
 .contact-box {
   display: flex;
   justify-content: center;
@@ -446,7 +473,6 @@ p {
   align-items: center;
   gap: 25px;
 }
-
 
 .contact-item {
   font-family: 'Pacifico', cursive;
