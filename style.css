@@ -477,5 +477,11 @@ p {
 .contact-item {
   font-family: 'Pacifico', cursive;
   font-size: 20px;
+  color: #fff;
 } 
+
+.contact-item a {
+  color: #fff;
+  text-decoration: none;
+}
 
